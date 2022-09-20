@@ -153,7 +153,6 @@ def FetchedData():
 	except:
 		print COLOR.bold + ' --> Fetchall() Exception Catched ' + COLOR.die
 		pass
-
 def delOne(n):
 	query = """DELETE FROM bots WHERE id={0}""".format(n)
 	try:
