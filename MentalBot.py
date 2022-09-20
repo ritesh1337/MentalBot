@@ -2,9 +2,9 @@
 # Copyrights (c) 2015 >> TheStoker
 
 
-
+import MySQLdb
 try:
-	import os, sys, time, socket, MySQLdb, pxssh
+	import os, sys, time, socket, pxssh
 	sys.path.append('files/')
 	from re import search
 	from datetime import datetime
